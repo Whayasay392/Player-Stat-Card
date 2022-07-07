@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card-body {
+  margin: 3% auto;
+  position: relative;
+  height: 35rem;
+  padding: 1rem 0;
+  width: 18rem;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#player-select {
+  height: 2.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: 95%;
+  margin-left: 2%;
+  margin-bottom: 0.5rem;
+  color: black;
+  border: none;
+  background-color: #eaeaea;
+}
+
+.RooneyBadge {
+  position: absolute;
+  right: 13px;
+  top: 43%;
+  height: 4.3rem;
+  width: 4.3rem;
+  background-image: url(/assets/manuBagde.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 1px solid red;
+  border-radius: 50px;
+}
+
+.YayaBadge {
+  position: absolute;
+  right: 13px;
+  top: 43%;
+  height: 4.3rem;
+  width: 4.3rem;
+  background-image: url(/assets/manchester-city-logo-png-transparent.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid red;
+  border-radius: 50px;
+}
+
+.PerBadge {
+  position: absolute;
+  right: 13px;
+  top: 43%;
+  height: 4.3rem;
+  width: 4.3rem;
+  background-image: url(/assets/arsenal-logo-png-transparent.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid red;
+  border-radius: 50px;
+}
+
+.TobyBadge {
+  position: absolute;
+  right: 13px;
+  top: 43%;
+  height: 4.3rem;
+  width: 4.3rem;
+  background-image: url(/assets/tottenham-hotspur-logo-png-transparent.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 1px solid red;
+  border-radius: 50px;
+}
+
+.MahrezBadge {
+  position: absolute;
+  right: 13px;
+  top: 43%;
+  height: 4.3rem;
+  width: 4.3rem;
+  background-image: url(/assets/leicester-city-fc-1-logo-png-transparent.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid red;
+  border-radius: 50px;
+}
+
+.playerImgcover {
+  max-height: 100%;
+  width: 100%;
+}
+
+#TobyBg {
+  background-image: url(/assets/p4916.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  height: 83%;
+  width: 60%;
+}
+
+#YayaBg {
+  background-image: url(/assets/p4148.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  height: 83%;
+  width: 60%;
+}
+
+#RooneyBg {
+  background-image: url(/assets/p2064.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  height: 83%;
+  width: 60%;
+}
+
+#PerBg {
+  background-image: url(/assets/p4246.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  height: 83%;
+  width: 60%;
+}
+
+#MahrezBg {
+  background-image: url(/assets/p8983.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  height: 83%;
+  width: 60%;
+}
+
+.player-details {
+  position: absolute;
+  z-index: -1000 !important;
+  top: 50%;
+  width: 100%;
+  background-color: #ec004f;
+}
+
+.player-name {
+  color: #ffff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  line-height: 0;
+}
+
+.player-position {
+  color: #ffff;
+  padding-left: 1rem;
+  line-height: 0;
+}
+
+.stat-box {
+  display: block;
+  background-color: #eaeaea;
+  margin: 0.5rem auto;
+  width: 90%;
+  padding: 0.5rem;
+  overflow: hidden;
+  line-height: 1.5rem;
+  clear: both;
+}
+
+.details {
+  color: #39003d;
+  float: left;
+}
+
+.details-count {
+  float: right;
+  font-weight: bold;
+  color: #39003d;
+}
+/*# sourceMappingURL=style.css.map */

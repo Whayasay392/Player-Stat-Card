@@ -1,0 +1,228 @@
+
+// font-style
+$font:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+
+// ReUsable Positions Property
+$cardPosition : 3% auto ;
+$cardHeight: 35rem;
+$cardWidth: 18rem;
+$relativePosition: relative;
+$absolutePosition: absolute;
+$zero : 0;
+$primarySize: 1.5rem;
+$secondarySize: 1rem;
+$badgeHeight: 4.3rem;
+$badgeWidth: 4.3rem;
+
+// rem sizing
+$zerofive: 0.5rem;
+$zeronine: 0.9rem;
+$onerem: 1rem;
+$twofive: 2.5rem;
+
+// ReUsable Color Properties
+$black : black;
+$white: #ffff;
+$lightPink: rgba(234, 234, 234, 1);
+$Purple :  rgba(57, 0, 61, 1);
+$Red : rgba(236, 0, 79, 1);
+
+
+// Background Properties
+$RooneyBg :    url(/assets/p2064.png);
+$YayaBg :    url(/assets/p4148.png);
+$PerBg :    url(/assets/p4246.png);
+$TobyBg :    url(/assets/p4916.png);
+$MahrezBg :    url(/assets/p8983.png);
+$RooneyBadge: url(/assets/manuBagde.png);
+$YayaBadge: url(/assets/manchester-city-logo-png-transparent.png);
+$PerBadge: url(/assets/arsenal-logo-png-transparent.png);
+$TobyBadge: url(/assets/tottenham-hotspur-logo-png-transparent.png);
+$MahrezBadge: url(/assets/leicester-city-fc-1-logo-png-transparent.png);
+
+// Box Shadow
+$BoxShadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+body    {
+    margin: $zero;
+    padding: $zero;
+    box-sizing: border-box;
+    font-family: $font;
+}
+// Card container
+.card-body{
+margin: $cardPosition;
+position: $relativePosition;
+height: $cardHeight;
+padding: $onerem 0;
+width: $cardWidth;
+box-shadow: $BoxShadow;
+}
+// Selects option
+#player-select    {
+    height: $twofive;
+    font-size: $zeronine;
+    font-weight: 500;
+    width: 95%;
+    margin-left:  2%;
+    margin-bottom: $zerofive;
+    color: $black;
+    border: none;
+    background-color: $lightPink;
+   
+}
+
+// Players Badge
+// ----------
+// Wayne Rooney
+.RooneyBadge {
+    position: $absolutePosition;
+     right:13px;
+    top:43%;
+    height: $badgeHeight;
+    width: $badgeWidth;
+    background-image: $RooneyBadge;
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border: 1px solid red;
+  border-radius: 50px;
+}
+// Yaya Toure
+.YayaBadge {
+    position: $absolutePosition;
+    right:13px;
+   top:43%;
+    height: $badgeHeight;
+    width: $badgeWidth;
+    background-image: $YayaBadge;
+    background-repeat: no-repeat;
+  background-size: 100% ;
+  border: 1px solid red;
+  border-radius: 50px;
+}
+// Per Mertesacker
+.PerBadge {
+    position: $absolutePosition;
+    right:13px;
+   top:43%;
+    height: $badgeHeight;
+    width: $badgeWidth;
+    background-image: $PerBadge;
+    background-repeat: no-repeat;
+  background-size: 100% ;
+  border: 1px solid red;
+  border-radius: 50px;
+}
+
+// Toby Alderweireld
+.TobyBadge {
+    position: $absolutePosition;
+    right:13px;
+   top:43%;
+   height: $badgeHeight;
+   width: $badgeWidth;
+   background-image: $TobyBadge;
+   background-repeat: no-repeat;
+ background-size: 100% 100%;
+ border: 1px solid red;
+ border-radius: 50px;
+}
+// Riyad Mahrez
+.MahrezBadge {
+    position: $absolutePosition;
+    right:13px;
+   top:43%;
+    height: $badgeHeight;
+    width: $badgeWidth;
+    background-image: $MahrezBadge;
+    background-repeat: no-repeat;
+  background-size: 100% ;
+  border: 1px solid red;
+ border-radius: 50px;
+}
+// This is the player image cover 
+.playerImgcover {
+    max-height: 100%;
+    width: 100%;
+}
+// Player Images sets 
+#TobyBg{
+    background-image:  $TobyBg;
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  height: 83%;
+  width: 60%;
+}
+#YayaBg{
+    background-image:  $YayaBg;
+    background-repeat: no-repeat;
+  background-size: 100% 50%;
+  height: 83%;
+  width: 60%;
+}
+#RooneyBg{
+    background-image:  $RooneyBg;
+    background-repeat: no-repeat;
+  background-size: 100% 50%;
+  height: 83%;
+  width: 60%;
+}
+#PerBg{
+    background-image:  $PerBg;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+  background-size: 100% 50%;
+  height: 83%;
+  width: 60%;
+}
+#MahrezBg{
+    background-image:  $MahrezBg;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    height: 83%;
+    width: 60%;
+}
+
+// Stats section
+.player-details {
+    position: $absolutePosition;
+    z-index:-1000 !important;
+    top: 50%;
+    width: 100%;
+    background-color:$Red;
+}
+.player-name    {
+    color: $white;
+    font-weight: 500;
+    font-size: $primarySize;
+    padding-left: 1rem;
+    line-height: 0;
+}
+.player-position {
+    color: $white;
+    padding-left: 1rem;
+    line-height: 0;
+}
+// This is the div that holds each stats 
+.stat-box   {
+     display: block;
+    background-color:rgba(234, 234, 234, 1);
+    margin: 0.5rem auto;
+    width: 90%;
+    padding: 0.5rem;
+    overflow: hidden;
+    line-height: 1.5rem;
+    clear: both;
+}
+//stats name
+.details {
+    color: $Purple;
+    float: left;
+}
+// stats value
+.details-count {
+   float: right;
+    font-weight: bold;
+    color: $Purple;
+}

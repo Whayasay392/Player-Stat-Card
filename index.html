@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Pulselive Player Card Task</title>
+</head>
+<body>
+    <!-- The project body -->
+    <main class="main-container">
+        <!-- The card body -->
+        <section class="card-body" >
+            <!-- Players selection lists -->
+            
+                 <select name="player-card" id="player-select">
+                    <option  value="">Select a player...</option>
+               <option value="Toby">Toby Alderweireld</option>
+                <option value="Yaya">Yaya Toure</option>
+                 <option value="Rooney">Wayne Rooney</option>
+                <option value="Mertesacker">Per Mertesacker</option>
+                <option value="Mahrez">Riyad Mahrez</option>
+            </select>
+            
+                <div class="cardBG" id="TobyBg" ></div>
+           
+            <div class="TobyBadge" id="badgeElement">
+            </div>
+           <!-- player details section -->
+           <div class="player-details">
+            <p class="player-name">Toby Alderweireld</p>
+            <p class="player-position">Defender</p>
+
+            <div class="stat-box">
+               <span class="details">Appearances</span> <span class="details-count" id="appearance">300</span>
+            </div>
+
+            <div class="stat-box">
+                <span class="details">Goals</span><span class="details-count" id="goals">250</span>
+            </div>
+            <div class="stat-box">
+                <span class="details">Assists</span><span class="details-count" id="assists">80</span>
+            </div>
+            <div class="stat-box">
+                <span class="details">Goals Per Match</span><span class="details-count" id="goalPerMatch">0.9</span>
+            </div>
+            <div class="stat-box">
+                <span class="details">Passes per minute</span><span id="PassPerMin" class="details-count">0.8</span>
+            </div>
+
+
+           </div>
+
+        </section>
+    </main>
+    <!-- <script src="/data/player-stats.json"></script> -->
+    <script src="/script.js"></script>
+</body>
+</html>
